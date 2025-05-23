@@ -1,0 +1,15 @@
+[2025-05-21 15:01:03] INFO: Starting deployment process...
+[2025-05-21 15:01:04] INFO: Fetching environment variables from secure vault.
+[2025-05-21 15:01:06] INFO: Connecting to Azure Container Registry...
+[2025-05-21 15:01:07] INFO: Pulling image terraform-webapp:v1
+[2025-05-21 15:01:11] INFO: Image pulled successfully.
+[2025-05-21 15:01:13] INFO: Initiating container startup sequence.
+[2025-05-21 15:01:15] ERROR: DEPLOYMENT - Container failed to start due to port conflict.
+[2025-05-21 15:01:17] INFO: Rolling back to previous stable version.
+[2025-05-21 15:01:20] INFO: Deployment rollback complete.
+[2025-05-21 15:01:22] WARNING: Health probe failed for endpoint /health.
+[2025-05-21 15:01:25] ERROR: DEPLOYMENT - Application failed health checks after restart.
+[2025-05-21 15:01:28] INFO: Sending alert to DevOps team via Microsoft Teams integration.
+[2025-05-21 15:01:30] INFO: Cleanup of temporary files initiated.
+[2025-05-21 15:01:35] INFO: Deployment pipeline halted due to critical errors.
+[2025-05-21 15:01:36] ERROR: DEPLOYMENT - Deployment aborted. Check logs for more details.
